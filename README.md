@@ -9,9 +9,9 @@ It performs three helm upgrade commands each changing the readinessProbePath.
 
 ## Requirements
 
-kubernetes 1.8.3
-helm 2.7.2 or 2.8.0
+* kubernetes 1.8.3
+* helm 2.7.2 or 2.8.0
 
-Run like:
+## Run it
 
     ./repro.sh
