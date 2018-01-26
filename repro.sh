@@ -21,7 +21,7 @@ function main() {
 
   echo
   echo Three revisions exist in helm
-  helm list --namespace default -a repro-1873
+  helm history repro-1873
 
   if kubectl rollout history deploy/repro-1873-repro-1873 --revision=3 >/dev/null 2>/dev/null; then
     echo DID NOT REPLICATE ISSUE
